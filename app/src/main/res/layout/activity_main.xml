@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:text="Menu Principal"
+            android:textAlignment="center"
+            android:background="#536dfe"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnCorreo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textMenu"
+            android:text="Correo"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#236fdd"/>
+
+        <Button
+            android:id="@+id/btnPaciente"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/textMenu"
+            android:text="Pacientes"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:id="@+id/btnVisita"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnPaciente"
+            android:text="Visitas"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/txtLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnVisita"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Datos"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txtTabla"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="50dp"
+            android:layout_below="@+id/txtLista"
+            android:layout_marginTop="20dp"
+            android:background="#236fdd"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
